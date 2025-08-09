@@ -212,6 +212,7 @@ class _HomeScreenState extends State<HomeScreen> {
           mainAxisSize: MainAxisSize.min,
           children: [
             Image.asset("assets/logo.jpg", height: 200, fit: BoxFit.contain),
+            
             const SizedBox(height: 10),
             Container(
               decoration: BoxDecoration(
